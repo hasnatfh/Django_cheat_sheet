@@ -43,3 +43,30 @@ $  py manage.py startapp News
 ```
 $  py manage.py runserver
 ```
+## Static file 
+##### first create a 'static' folder in base directory 
+#### project/settings.py
+```
+STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",    
+]
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+
+MEDIA_URL = 'media/'
+MEDIA_ROOT = BASE_DIR / "media"
+```
+
+#### project/urls.py
+```
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+```
+
+
