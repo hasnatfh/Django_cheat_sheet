@@ -44,7 +44,9 @@ $  py manage.py startapp News
 $  py manage.py runserver
 ```
 ## Static file 
-##### first create a 'static' folder in base directory 
+##### First create a 'static' folder in base directory 
+
+
 #### project/settings.py
 ```
 STATIC_URL = 'static/'
@@ -61,6 +63,10 @@ MEDIA_ROOT = BASE_DIR / "media"
 ```
 
 #### project/urls.py
+```
+from django.conf import settings
+from django.conf.urls.static import static
+```
 ```
 
 if settings.DEBUG:
