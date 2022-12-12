@@ -81,7 +81,7 @@ if settings.DEBUG:
     <ul class="paginationfh">
         {% if page_obj.has_previous %}
         <li class="page-item" ><a class="page-link" href="?page={{ page_obj.previous_page_number }}">Previous</a></li>
-        {% else %
+        {% else % }
         <li class="page-item disabled">
         <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
         </li>
