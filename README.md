@@ -75,7 +75,11 @@ if settings.DEBUG:
 
 ```
 
-#### Django pagination 
+## Django pagination:
+This pagination based on Bootstrap 5. 
+
+[See demo image:](http://postimg.cc/34ZLPBFT)
+
 ```
     {% if is_paginated %}     
     <ul class="paginationfh">
