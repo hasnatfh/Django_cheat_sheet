@@ -111,4 +111,25 @@ This pagination based on Bootstrap 5.
     {% endif %} 
 ```
 
+## How to disable git for some project and other project not disable git in Visual Studio Code?
 
+
+Below snippet would be added into  `.vscode/settings.json` </em> to apply for that workspace only:
+```
+{
+    "git.enabled": false
+}
+```
+
+Here's an example folder structure:
+```
+myproject/
+├── .vscode/
+│   ├── settings.json <----
+├── html/
+│   ├── index.html
+│   └── 404.html
+└── js/
+    ├── bootstrap.js
+    └── bootstrap.min.js
+```
