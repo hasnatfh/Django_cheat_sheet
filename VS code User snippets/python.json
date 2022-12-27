@@ -1,0 +1,172 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"admin.site.register()": {
+		"prefix": "fhadmin-siteregister",
+		"body": [
+			"admin.site.register($0)",
+		],
+		"description": "admin.site.register(Article)"
+	},
+
+
+	"ListView": {
+		"prefix": "fh.ListView",
+		"body": [
+			"class ArticleListView(ListView):",
+			    "    model = Article",
+				"    template_name = 'cindex.html'",
+				"    context_object_name = 'article_list'",
+			"$0"
+		],
+		"description": "CBV ListView"
+	},
+
+	"FBV ListView": {
+		"prefix": "fh.fbv.ListView",
+		"body": [
+			"def fbhome_list(request):",
+			    "    datalist = FbCrudModel.objects.all()",
+				"    context = {",
+				"        'crud_list':datalist ",
+				"        }",
+				"    return render(request, 'fbvtemplate/fbindex.html', context)",
+			"$0"
+
+		],
+		"description": "FBV ListView"
+	},
+
+
+	"FBV CreateView": {
+		"prefix": "fh.fbv.CreateView",
+		"body": [
+				"def fbcrud_add(request):",
+				"    form = FbCrudForm(request.POST or None)",
+				"    if request.method == 'POST':",
+				"        if form.is_valid():",
+				"            form.save()",
+				"            return redirect ('fbhome')",
+				"    context = {",
+				"        'form':form ",
+				"        }",
+				"    return render(request, 'fbvtemplate/fbadd.html', context)",
+				"$0"
+		],
+		"description": "FBV CreateView"
+	},
+
+	"FBV UpdateView": {
+		"prefix": "fh.fbv.UpdateView",
+		"body": [
+				"def fbcrud_update(request, id):",
+				"    obj = FbCrudModel.objects.get(id=id) ",
+				"    form = FbCrudForm(request.POST or None, instance = obj) ",
+				"    if request.method == 'POST':",
+				"        if form.is_valid():",
+				"            form.save()",
+				"            return redirect ('fbhome')",
+				"    context = {",
+				"        'update_form':form ",
+				"        }",
+				"    return render(request, 'fbvtemplate/fbupdate.html', context)",
+				"$0"
+		],
+		"description": "FBV UpdateView"
+	},
+
+
+
+	"FBV.DeleteView": {
+		"prefix": "fh.fbv.DeleteView",
+		"body": [
+				"def fblist_delete(request, id):",
+				"    datalist3 = FbCrudModel.objects.get(id=id)",
+				"    if request.method =='POST':",
+				"        datalist3.delete()",
+				"        return redirect('fbhome')",
+				"    context = {",
+				"        'crud_list_delete':datalist3 ",
+				"        }",
+				"    return render(request,  'fbvtemplate/fbdelete.html', context)",
+				"$0"
+
+		],
+		"description": "FBV.DeleteView"
+	},
+
+
+	"FBV DetailView": {
+		"prefix": "fh.fbv.DetailView",
+		"body": [
+				"def fblist_details(request, id):",
+				"    datalist2 = FbCrudModel.objects.get(id=id)",
+				"    context = {",
+				"        'crud_list_detail': datalist2 ",
+				"        }",
+				"    return render(request, 'fbvtemplate/fbdetail.html', context)",
+				"$0"
+
+		],
+		"description": "FBV DetailView"
+	},
+
+
+
+//app/urls.py
+
+	"FBV ListView urls": {
+		"prefix": "fh.fbv.ListView.urls",
+		"body": [
+				"path('', views.fbhome_list, name = 'fbhome'),",
+		],
+		"description": "FBV ListView urls"
+	},
+	"FBV CreateView urls": {
+		"prefix": "fh.fbv.CreateView.urls",
+		"body": [
+				"path('fb-add', views.fbcrud_add, name = 'fbadd'), ",
+		],
+		"description": "FBV CreateView urls"
+	},
+
+	"FBV UpdateView urls": {
+		"prefix": "fh.fbv.UpdateView.urls",
+		"body": [
+				"path('fb-update/<int:id>', views.fbcrud_update, name = 'fbupdate'), ",
+		],
+		"description": "FBV UpdateView urls"
+	},
+
+	"FBV DetailView.urls": {
+		"prefix": "fh.fbv.DetailView urls",
+		"body": [
+				"path('fb-detail/<int:id>', views.fblist_details, name = 'fbdetails'),",
+
+		],
+		"description": "FBV DetailView urls"
+	},
+	"FBV DeleteView urls": {
+		"prefix": "fh.fbv.DeleteView.urls",
+		"body": [
+				"path('fb-delete/<int:id>', views.fblist_delete, name = 'fbdelete'),",
+
+		],
+		"description": "FBV DeleteView urls"
+	},
+
+
+}
+

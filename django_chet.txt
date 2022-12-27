@@ -1,0 +1,151 @@
+
+  Create a folder name myproject-1
+>>1a -Set up a virtual environment to < myproject-1>
+---------------------------------------
+      py -m venv env
+
+...PS E:\Web Development\Python_django\myproject-1\py -m venv env
+
+>>1b -Activate the virtual environment
+----------------------------------------     
+      env\Scripts\activate.bat
+...PS E:\Web Development\Python_django\myproject-1\env\Scripts\activate.bat
+
+>>2a -Install Django  to <myproject-1>
+----------------------------------
+      py -m pip install Django
+...PS E:\Web Development\Python_django\myproject-1\py -m pip install Django
+
+>>2b Pin your dependencies
+--------------------------------------------------------------------------
+      py -m pip freeze > requirements.txt
+...PS E:\Web Development\Python_django\myproject-1\py -m pip freeze > requirements.txt
+
+>>3 -Set up a Django project in myproject-1
+------------------------------------------------ 
+      django-admin startproject django_blog
+...PS E:\Web Development\Python_django\myproject-1\django-admin startproject django_blog
+
+>>4 -Start a Django app in django_blog folder  
+-----------------------------------------------
+      py manage.py startapp blog
+...PS E:\Web Development\Python_django\myproject-1\django_blog> py manage.py startapp blog
+
+Run server:
+----------------
+      py manage.py runserver
+
+PS E:\Web Development\Python_django\myproject-1\django_blog> py manage.py runserver
+
+...
+Create a folder name myproject-1
+
+py -m venv env
+env\Scripts\activate.bat
+pip install django
+
+django-admin startproject mypro
+py manage.py startapp News
+py manage.py runserver 
+
+...
+
+python manage.py createsuperuser
+py manage.py createsuperuser
+py manage.py makemygrations
+py manage.py migrate
+.......................................
+mkdir testproject
+cd testproject
+virtualenv venv
+source venv/Scripts/activate
+pip install django
+django-admin startproject hasnat_project .
+py manage.py startapp News
+..........
+Finiara@DESKTOP-OR1TBFV MINGW64 /e/Web Development/Python_Django/MyPractice
+$ mkdir testproject
+
+Finiara@DESKTOP-OR1TBFV MINGW64 /e/Web Development/Python_Django/MyPractice
+$ cd testproject/
+
+Finiara@DESKTOP-OR1TBFV MINGW64 /e/Web Development/Python_Django/MyPractice/testproject
+$ virtualenv venv
+created virtual environment CPython3.10.5.final.0-64 in 4999ms
+  creator CPython3Windows(dest=E:\Web Development\Python_Django\MyPractice\testproject\venv, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\Finiara\AppData\Local\pypa\virtualenv)
+    added seed packages: pip==22.2.2, setuptools==63.4.1, wheel==0.37.1
+  activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+Finiara@DESKTOP-OR1TBFV MINGW64 /e/Web Development/Python_Django/MyPractice/testproject
+$ source venv/Scripts/activate
+(venv)
+Finiara@DESKTOP-OR1TBFV MINGW64 /e/Web Development/Python_Django/MyPractice/testproject
+$ pip install django
+Collecting django
+  Using cached Django-4.1-py3-none-any.whl (8.1 MB)
+Collecting asgiref<4,>=3.5.2
+  Using cached asgiref-3.5.2-py3-none-any.whl (22 kB)
+Collecting sqlparse>=0.2.2
+  Using cached sqlparse-0.4.2-py3-none-any.whl (42 kB)
+Collecting tzdata
+  Using cached tzdata-2022.2-py2.py3-none-any.whl (336 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.5.2 django-4.1 sqlparse-0.4.2 tzdata-2022.2
+(venv)
+Finiara@DESKTOP-OR1TBFV MINGW64 /e/Web Development/Python_Django/MyPractice/testproject
+$ django-admin startproject hasnat_project .
+(venv)
+
+
+
+
+...................................................
+models.py
+forms.py 
+views.py 
+urls.py 
+
+.....
+models -> mygrate
+then import in admin.py 
+
+
+
+Learn About:
+====================
+Createview
+updateview
+deleteview
+listview
+detailview 
+Formview 
+
+
+
+
+
+How do you stop bots from adding you on Instagram?
+Other things you can do to stop Instagram spam bots on your IG account
+Set up a private account or make your existing account private. Not a great solution if you're a growing brand and want as much engagement as you can get, also from people who don't follow you yet.
+Block and report users on Instagram.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
