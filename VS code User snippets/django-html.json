@@ -1,17 +1,17 @@
 {
-	// Place your snippets for django-html here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
+	   Place your snippets for django-html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	   description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	   $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	   same ids are connected.
+	   Example:
+	   "Print to console": {
+	   	"prefix": "log",
+	   	"body": [
+	   		"console.log('$1');",
+	   		"$2"
+	   	],
+	   	"description": "Log output to console"
+	   }
 
 
 	"{% static '' %}": {
@@ -81,7 +81,7 @@
 	},
 
 
-// html snippet
+   html snippet
     "doctype": {
         "prefix": "doctype",
         "body": [
@@ -89,19 +89,19 @@
             "$1"
         ],
         "description": "HTML - Defines the document type",
-        //
+          
     },
     "a": {
         "prefix": "a",
         "body": "<a href=\"$1\">$2</a>$3",
         "description": "HTML - Defines a hyperlink",
-        //
+          
     },
     "abbr": {
         "prefix": "abbr",
         "body": "<abbr title=\"$1\">$2</abbr>$3",
         "description": "HTML - Defines an abbreviation",
-        //
+          
     },
     "address": {
         "prefix": "address",
@@ -111,13 +111,13 @@
             "</address>"
         ],
         "description": "HTML - Defines an address element",
-        //
+          
     },
     "area": {
         "prefix": "area",
         "body": "<area shape=\"$1\" coords=\"$2\" href=\"$3\" alt=\"$4\">$5",
         "description": "HTML - Defines an area inside an image map",
-        //
+          
     },
     "article": {
         "prefix": "article",
@@ -127,7 +127,7 @@
             "</article>"
         ],
         "description": "HTML - Defines an article",
-        //
+          
     },
     "aside": {
         "prefix": "aside",
@@ -137,7 +137,7 @@
             "</aside>$2"
         ],
         "description": "HTML - Defines content aside from the page content",
-        //
+          
     },
     "audio": {
         "prefix": "audio",
@@ -147,25 +147,25 @@
             "</audio>"
         ],
         "description": "HTML - Defines sounds content",
-        //
+          
     },
     "b": {
         "prefix": "b",
         "body": "<b>$1</b>$2",
         "description": "HTML - Defines bold text",
-        //
+          
     },
     "base": {
         "prefix": "base",
         "body": "<base href=\"$1\" target=\"$2\">$3",
         "description": "HTML - Defines a base URL for all the links in a page",
-        //
+          
     },
     "bdi": {
         "prefix": "bdi",
         "body": "<bdi>$1</bdi>$2",
         "description": "HTML - Used to isolate text that is of unknown directionality",
-        //
+          
     },
     "bdo": {
         "prefix": "bdo",
@@ -175,13 +175,13 @@
             "</bdo>"
         ],
         "description": "HTML - Defines the direction of text display",
-        //
+          
     },
     "big": {
         "prefix": "big",
         "body": "<big>$1</big>$2",
         "description": "HTML - Used to make text bigger",
-        //
+          
     },
     "blockquote": {
         "prefix": "blockquote",
@@ -191,7 +191,7 @@
             "</blockquote>"
         ],
         "description": "HTML - Defines a long quotation",
-        //
+          
     },
     "body": {
         "prefix": "body",
@@ -201,49 +201,49 @@
             "</body>"
         ],
         "description": "HTML - Defines the body element",
-        //
+          
     },
     "br": {
         "prefix": "br",
         "body": "<br>",
         "description": "HTML - Inserts a single line break",
-        //
+          
     },
     "button": {
         "prefix": "button",
         "body": "<button type=\"$1\">$2</button>$3",
         "description": "HTML - Defines a push button",
-        //
+          
     },
     "canvas": {
         "prefix": "canvas",
         "body": "<canvas id=\"$1\">$2</canvas>$3",
         "description": "HTML - Defines graphics",
-        //
+          
     },
     "caption": {
         "prefix": "caption",
         "body": "<caption>$1</caption>$2",
         "description": "HTML - Defines a table caption",
-        //
+          
     },
     "cite": {
         "prefix": "cite",
         "body": "<cite>$1</cite>$2",
         "description": "HTML - Defines a citation",
-        //
+          
     },
     "code": {
         "prefix": "code",
         "body": "<code>$1</code>$2",
         "description": "HTML - Defines computer code text",
-        //
+          
     },
     "col": {
         "prefix": "col",
         "body": "<col>$2",
         "description": "HTML - Defines attributes for table columns",
-        //
+          
     },
     "colgroup": {
         "prefix": "colgroup",
@@ -253,13 +253,13 @@
             "</colgroup>"
         ],
         "description": "HTML - Defines group of table columns",
-        //
+          
     },
     "command": {
         "prefix": "command",
         "body": "<command>$1</command>$2",
         "description": "HTML - Defines a command button [not supported]",
-        //
+          
     },
     "datalist": {
         "prefix": "datalist",
@@ -269,19 +269,19 @@
             "</datalist>"
         ],
         "description": "HTML - Defines a dropdown list",
-        //
+          
     },
     "dd": {
         "prefix": "dd",
         "body": "<dd>$1</dd>$2",
         "description": "HTML - Defines a definition description",
-        //
+          
     },
     "del": {
         "prefix": "del",
         "body": "<del>$1</del>$2",
         "description": "HTML - Defines deleted text",
-        //
+          
     },
     "details": {
         "prefix": "details",
@@ -291,19 +291,19 @@
             "</details>"
         ],
         "description": "HTML - Defines details of an element",
-        //
+          
     },
     "dialog": {
         "prefix": "dialog",
         "body": "<dialog>$1</dialog>$2",
         "description": "HTML - Defines a dialog (conversation)",
-        //
+          
     },
     "dfn": {
         "prefix": "dfn",
         "body": "<dfn>$1</dfn>$2",
         "description": "HTML - Defines a definition term",
-        //
+          
     },
     "div": {
         "prefix": "div",
@@ -313,7 +313,7 @@
             "</div>"
         ],
         "description": "HTML - Defines a section in a document",
-        //
+          
     },
     "dl": {
         "prefix": "dl",
@@ -323,25 +323,25 @@
             "</dl>"
         ],
         "description": "HTML - Defines a definition list",
-        //
+          
     },
     "dt": {
         "prefix": "dt",
         "body": "<dt>$1</dt>$2",
         "description": "HTML - Defines a definition term",
-        //
+          
     },
     "em": {
         "prefix": "em",
         "body": "<em>$1</em>$2",
         "description": "HTML - Defines emphasized text",
-        //
+          
     },
     "embed": {
         "prefix": "embed",
         "body": "<embed src=\"$1\">$2",
         "description": "HTML - Defines external interactive content ot plugin",
-        //
+          
     },
     "fieldset": {
         "prefix": "fieldset",
@@ -351,13 +351,13 @@
             "</fieldset>"
         ],
         "description": "HTML - Defines a fieldset",
-        //
+          
     },
     "figcaption": {
         "prefix": "figcaption",
         "body": "<figcaption>$1</figcaption>$2",
         "description": "HTML - Defines a caption for a figure",
-        //
+          
     },
     "figure": {
         "prefix": "figure",
@@ -367,7 +367,7 @@
             "</figure>"
         ],
         "description": "HTML - Defines a group of media content, and their caption",
-        //
+          
     },
     "footer": {
         "prefix": "footer",
@@ -377,7 +377,7 @@
             "</footer>"
         ],
         "description": "HTML - Defines a footer for a section or page",
-        //
+          
     },
     "form": {
         "prefix": "form",
@@ -387,43 +387,43 @@
             "</form>"
         ],
         "description": "HTML - Defines a form",
-        //
+          
     },
     "h1": {
         "prefix": "h1",
         "body": "<h1>$1</h1>$2",
         "description": "HTML - Defines header 1",
-        //
+          
     },
     "h2": {
         "prefix": "h2",
         "body": "<h2>$1</h2>$2",
         "description": "HTML - Defines header 2",
-        //
+          
     },
     "h3": {
         "prefix": "h3",
         "body": "<h3>$1</h3>$2",
         "description": "HTML - Defines header 3",
-        //
+          
     },
     "h4": {
         "prefix": "h4",
         "body": "<h4>$1</h4>$2",
         "description": "HTML - Defines header 4",
-        //
+          
     },
     "h5": {
         "prefix": "h5",
         "body": "<h5>$1</h5>$2",
         "description": "HTML - Defines header 5",
-        //
+          
     },
     "h6": {
         "prefix": "h6",
         "body": "<h6>$1</h6>$2",
         "description": "HTML - Defines header 6",
-        //
+          
     },
     "head": {
         "prefix": "head",
@@ -433,7 +433,7 @@
             "</head>"
         ],
         "description": "HTML - Defines information about the document",
-        //
+          
     },
     "header": {
         "prefix": "header",
@@ -443,7 +443,7 @@
             "</header>"
         ],
         "description": "HTML - Defines a header for a section of page",
-        //
+          
     },
     "hgroup": {
         "prefix": "hgroup",
@@ -453,13 +453,13 @@
             "</hgroup>"
         ],
         "description": "HTML - Defines information about a section in a document",
-        //
+          
     },
     "hr": {
         "prefix": "hr",
         "body": "<hr>",
         "description": "HTML - Defines a horizontal rule",
-        //
+          
     },
     "html": {
         "prefix": "html",
@@ -469,7 +469,7 @@
             "</html>"
         ],
         "description": "HTML - Defines an html document",
-        //
+          
     },
     "html5": {
         "prefix": "html5",
@@ -488,73 +488,73 @@
             "</html>"
         ],
         "description": "HTML - Defines a template for a html5 document",
-        //
+          
     },
     "i": {
         "prefix": "i",
         "body": "<i>$1</i>$2",
         "description": "HTML - Defines italic text",
-        //
+          
     },
     "iframe": {
         "prefix": "iframe",
         "body": "<iframe src=\"$1\">$2</iframe>$3",
         "description": "HTML - Defines an inline sub window",
-        //
+          
     },
     "img": {
         "prefix": "img",
         "body": "<img src=\"$1\" alt=\"$2\">$3",
         "description": "HTML - Defines an image",
-        //
+          
     },
     "input": {
         "prefix": "input",
         "body": "<input type=\"$1\" name=\"$2\" value=\"$3\">$4",
         "description": "HTML - Defines an input field",
-        //
+          
     },
     "ins": {
         "prefix": "ins",
         "body": "<ins>$1</ins>$2",
         "description": "HTML - Defines inserted text",
-        //
+          
     },
     "keygen": {
         "prefix": "keygen",
         "body": "<keygen name=\"$1\">$2",
         "description": "HTML - Defines a generated key in a form",
-        //
+          
     },
     "kbd": {
         "prefix": "kbd",
         "body": "<kbd>$1</kbd>$2",
         "description": "HTML - Defines keyboard text",
-        //
+          
     },
     "label": {
         "prefix": "label",
         "body": "<label for=\"$1\">$2</label>$3",
         "description": "HTML - Defines an inline window",
-        //
+          
     },
     "legend": {
         "prefix": "legend",
         "body": "<legend>$1</legend>$2",
         "description": "HTML - Defines a title in a fieldset",
-        //
+          
     },
     "li": {
         "prefix": "li",
         "body": "<li>$1</li>$2",
         "description": "HTML - Defines a list item",
-        //
+          
     },
     "link": {
         "prefix": "link",
         "body": "<link rel=\"$1\" type=\"$2\" href=\"$3\">$4",
         "description": "HTML - Defines a resource reference",
-        //
+          
     },
     "main": {
         "prefix": "main",
@@ -564,7 +564,7 @@
             "</main>"
         ],
         "description": "HTML - Defines an image map",
-        //
+          
     },
     "map": {
         "prefix": "map",
@@ -574,13 +574,13 @@
             "</map>"
         ],
         "description": "HTML - Defines an image map",
-        //
+          
     },
     "mark": {
         "prefix": "mark",
         "body": "<mark>$1</mark>$2",
         "description": "HTML - Defines marked text",
-        //
+          
     },
     "menu": {
         "prefix": "menu",
@@ -590,25 +590,25 @@
             "</menu>"
         ],
         "description": "HTML - Defines a menu list",
-        //
+          
     },
     "menuitem": {
         "prefix": "menuitem",
         "body": "<menuitem>$1</menuitem>$2",
         "description": "HTML - Defines a menu item [firefox only]",
-        //
+          
     },
     "meta": {
         "prefix": "meta",
         "body": "<meta name=\"$1\" content=\"$2\">$3",
         "description": "HTML - Defines meta information",
-        //
+          
     },
     "meter": {
         "prefix": "meter",
         "body": "<meter value=\"$1\">$2</meter>$3",
         "description": "HTML - Defines measurement within a predefined range",
-        //
+          
     },
     "nav": {
         "prefix": "nav",
@@ -618,7 +618,7 @@
             "</nav>"
         ],
         "description": "HTML - Defines navigation links",
-        //
+          
     },
     "noscript": {
         "prefix": "noscript",
@@ -628,13 +628,13 @@
             "</noscript>"
         ],
         "description": "HTML - Defines a noscript section",
-        //
+          
     },
     "object": {
         "prefix": "object",
         "body": "<object width=\"$1\" height=\"$2\" data=\"$3\">$4</object>$5",
         "description": "HTML - Defines an embedded object",
-        //
+          
     },
     "ol": {
         "prefix": "ol",
@@ -644,7 +644,7 @@
             "</ol>"
         ],
         "description": "HTML - Defines an ordered list",
-        //
+          
     },
     "optgroup": {
         "prefix": "optgroup",
@@ -654,31 +654,31 @@
             "</optgroup>"
         ],
         "description": "HTML - Defines an option group",
-        //
+          
     },
     "option": {
         "prefix": "option",
         "body": "<option value=\"$1\">$2</option>$3",
         "description": "HTML - Defines an option in a drop-down list",
-        //
+          
     },
     "output": {
         "prefix": "output",
         "body": "<output name=\"$1\" for=\"$2\">$3</output>$4",
         "description": "HTML - Defines some types of output",
-        //
+          
     },
     "p": {
         "prefix": "p",
         "body": "<p>$1</p>$2",
         "description": "HTML - Defines a paragraph",
-        //
+          
     },
     "param": {
         "prefix": "param",
         "body": "<param name=\"$1\" value=\"$2\">$3",
         "description": "HTML - Defines a parameter for an object",
-        //
+          
     },
     "pre": {
         "prefix": "pre",
@@ -686,31 +686,31 @@
             "<pre>$1</pre>"
         ],
         "description": "HTML - Defines preformatted text",
-        //
+          
     },
     "progress": {
         "prefix": "progress",
         "body": "<progress value=\"$1\" max=\"$2\">$3</progress>$4",
         "description": "HTML - Defines progress of a task of any kind",
-        //
+          
     },
     "q": {
         "prefix": "q",
         "body": "<q>$1</q>$2",
         "description": "HTML - Defines a short quotation",
-        //
+          
     },
     "rp": {
         "prefix": "rp",
         "body": "<rp>$1</rp>$2",
         "description": "HTML - Used in ruby annotations to define what to show browsers that do not support the ruby element",
-        //
+          
     },
     "rt": {
         "prefix": "rt",
         "body": "<rt>$1</rt>$2",
         "description": "HTML - Defines explanation to ruby annotations",
-        //
+          
     },
     "ruby": {
         "prefix": "ruby",
@@ -720,19 +720,19 @@
             "</ruby>"
         ],
         "description": "HTML - Defines ruby annotations",
-        //
+          
     },
     "s": {
         "prefix": "s",
         "body": "<s>$1</s>$2",
         "description": "HTML - Used to define strikethrough text",
-        //
+          
     },
     "samp": {
         "prefix": "samp",
         "body": "<samp>$1</samp>$2",
         "description": "HTML - Defines sample computer code",
-        //
+          
     },
     "script": {
         "prefix": "script",
@@ -742,7 +742,7 @@
             "</script>"
         ],
         "description": "HTML - Defines a script",
-        //
+          
     },
     "section": {
         "prefix": "section",
@@ -752,7 +752,7 @@
             "</section>"
         ],
         "description": "HTML - Defines a section",
-        //
+          
     },
     "select": {
         "prefix": "select",
@@ -762,31 +762,31 @@
             "</select>"
         ],
         "description": "HTML - Defines a selectable list",
-        //
+          
     },
     "small": {
         "prefix": "small",
         "body": "<small>$1</small>$2",
         "description": "HTML - Defines small text",
-        //
+          
     },
     "source": {
         "prefix": "source",
         "body": "<source src=\"$1\" type=\"$2\">$3",
         "description": "HTML - Defines media resource",
-        //
+          
     },
     "span": {
         "prefix": "span",
         "body": "<span>$1</span>$2",
         "description": "HTML - Defines a section in a document",
-        //
+          
     },
     "strong": {
         "prefix": "strong",
         "body": "<strong>$1</strong>$2",
         "description": "HTML - Defines strong text",
-        //
+          
     },
     "style": {
         "prefix": "style",
@@ -796,25 +796,25 @@
             "</style>"
         ],
         "description": "HTML - Defines a style definition",
-        //
+          
     },
     "sub": {
         "prefix": "sub",
         "body": "<sub>$1</sub>$2",
         "description": "HTML - Defines sub-scripted text",
-        //
+          
     },
     "sup": {
         "prefix": "sup",
         "body": "<sup>$1</sup>$2",
         "description": "HTML - Defines super-scripted text",
-        //
+          
     },
     "summary": {
         "prefix": "summary",
         "body": "<summary>$1</summary>$2",
         "description": "HTML - Defines a visible heading for the detail element [limited support]",
-        //
+          
     },
     "table": {
         "prefix": "table",
@@ -824,7 +824,7 @@
             "</table>"
         ],
         "description": "HTML - Defines a table",
-        //
+          
     },
     "tbody": {
         "prefix": "tbody",
@@ -834,19 +834,19 @@
             "</tbody>"
         ],
         "description": "HTML - Defines a table body",
-        //
+          
     },
     "td": {
         "prefix": "td",
         "body": "<td>$1</td>$2",
         "description": "HTML - Defines a table cell",
-        //
+          
     },
     "textarea": {
         "prefix": "textarea",
         "body": "<textarea rows=\"$1\" cols=\"$2\">$3</textarea>$4",
         "description": "HTML - Defines a text area",
-        //
+          
     },
     "tfoot": {
         "prefix": "tfoot",
@@ -856,7 +856,7 @@
             "</tfoot>"
         ],
         "description": "HTML - Defines a table footer",
-        //
+          
     },
     "thead": {
         "prefix": "thead",
@@ -866,43 +866,43 @@
             "</thead>"
         ],
         "description": "HTML - Defines a table head",
-        //
+          
     },
     "th": {
         "prefix": "th",
         "body": "<th>$1</th>$2",
         "description": "HTML - Defines a table header",
-        //
+          
     },
     "time": {
         "prefix": "time",
         "body": "<time datetime=\"$1\">$2</time>$3",
         "description": "HTML - Defines a date/time",
-        //
+          
     },
     "title": {
         "prefix": "title",
         "body": "<title>$1</title>$2",
         "description": "HTML - Defines the document title",
-        //
+          
     },
     "tr": {
         "prefix": "tr",
         "body": "<tr>$1</tr>$2",
         "description": "HTML - Defines a table row",
-        //
+          
     },
     "track": {
         "prefix": "track",
         "body": "<track src=\"$1\" kind=\"$2\" srclang=\"$3\" label=\"$4\">$5",
         "description": "HTML - Defines a table row",
-        //
+          
     },
     "u": {
         "prefix": "u",
         "body": "<u>$1</u>$2",
         "description": "HTML - Used to define underlined text",
-        //
+          
     },
     "ul": {
         "prefix": "ul",
@@ -912,13 +912,13 @@
             "</ul>"
         ],
         "description": "HTML - Defines an unordered list",
-        //
+          
     },
     "var": {
         "prefix": "var",
         "body": "<var>$1</var>$2",
         "description": "HTML - Defines a variable",
-        //
+          
     },
     "video": {
         "prefix": "video",
@@ -928,6 +928,6 @@
             "</video>"
         ],
         "description": "HTML - Defines a video",
-        //
+          
     }
 }

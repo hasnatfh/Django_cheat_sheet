@@ -113,7 +113,7 @@ This pagination based on Bootstrap 5.
 
 ## Override(rename) Django form field's name attr
 ```
-class AuthorForm(ModelForm):
+class AuthorForm(ModelForm): 
     class Meta:
         model = Author
         fields = ('name', 'title', 'birth_date')
